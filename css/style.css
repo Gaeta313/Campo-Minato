@@ -1,5 +1,5 @@
 .table{
-    background-color: aqua;
+    background-color: rgba(104, 104, 104, 0.668);
     width: 350px;
     height: 300px;
     margin: auto;
@@ -10,8 +10,14 @@
     margin-bottom: 50px;
 }
 
+body{
+    background-image: url("/img/arte-verdi-blu-colorati-sfondo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .tableM{
-    background-color: aqua;
+    background-color:rgba(104, 104, 104, 0.668) ;
     width: 700px;
     height: 600px;
     margin: auto;
@@ -23,7 +29,7 @@
 }
 
 .tableD{
-    background-color: aqua;
+    background-color: rgba(104, 104, 104, 0.668);
     width: 1050px;
     height: 900px;
     margin: auto;
@@ -33,6 +39,8 @@
     padding: 30px;
     margin-bottom: 50px;
 }
+
+
 
 .inputF{
     width: 10%;

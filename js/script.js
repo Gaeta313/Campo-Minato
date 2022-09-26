@@ -221,6 +221,7 @@ function avviaGioco(diff) {
                     }
                     else {
                         input.value = '';
+
                     }
                     return;
                 }
@@ -229,8 +230,11 @@ function avviaGioco(diff) {
                 if (grid[r][c].bomba == true) {
                     grid[r][c].scoppiato = true;
                     this.style.backgroundColor = `lightgrey`;
-                    this.value = 'B';
-                    this.style.color = 'red';
+                   this.style.backgroundImage = "url('/img/bomb(1).png')"
+                    this.style.backgroundRepeat = "no-repeat"
+                    this.style.backgroundSize = "contain"
+                    //this.value = 'B';
+                    //this.style.backgroundColor = 'red';
                     for (let r = 0; r < diff.numRC; r++) {
                         for (let c = 0; c < diff.numRC; c++) {
                             if (grid[r][c].bomba == true && grid[r][c].scoppiato == false) {
